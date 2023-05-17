@@ -1,0 +1,27 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+
+    float R1;
+    float R2;
+    float R3;
+    float R0;
+
+    cout << " Введите R1 ";
+    cin >> R1;
+    cout << " Введите R2 ";
+    cin >> R2;
+    cout << " Введите R3 ";
+    cin >> R3;
+
+    R0 = 1 / (1 / R1 + 1 / R2 + 1 / R3);
+
+    cout << " Равно " << R0;
+
+    return 0;
+}
